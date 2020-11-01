@@ -2835,6 +2835,9 @@ input, select, textarea {
 	}
 
 /* Posts */
+.post2 {
+	width: calc(50% - 1.25em) !important;
+}
 
 	.posts {
 		display: -moz-flex;
