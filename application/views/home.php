@@ -95,6 +95,16 @@
 				</div>
 			</section>
 
+			<!-- covid-19 -->
+			<section class="wrapper style1">
+				<div class="inner">
+					<p><b>Temporada de impuestos Horarios de la oficina del mes de Enero a Abril</b></p>
+					<p>Debido a la Pandemia por <mark>Covid-19</mark> esta temporada de impuestos trabajaremos solo con citas o visitanos en nuestras 
+					instalaciones para dejar tu documentacion en nuestro buzon especialmente instalado para ofrecerte la opcion de dejar tus 
+					documentos y en 48 hrs venir a recojer y revisar tu declaracion de impuestos</p>
+				</div>
+			</section>
+
 		<!-- Three -->
 			<section id="three" class="wrapper style2">
 				<div class="inner">
@@ -106,6 +116,9 @@
 								<h3>Declaracion de Impuestos</h3>
 								<p>Si es la primera vez que nos vistas recuerda traer la siguiente documentación para poder realizar de forma más 
 									eficiente tu declaración de impuestos.</p>
+								<p>Lunes a Sabado de 9:00 am a 7:00 pm Domingos de 9:00 am a 6:00 pm <br> 
+								Recuerda llamar  para hacer tu cita o escribenos a 
+								<a href="mailto:info@mccstaxservice.com">info@mccstaxservice.com</a></p>
 								<ul class="actions">
 									<li><a href="#" class="button">Saber mas...</a></li>
 								</ul>
@@ -154,7 +167,7 @@
 						<section class="post">
 							<span class="image"><img src="assets/images/pic01.jpg" alt="" /></span>
 							<div class="content">
-								<h3>Pablo</h3>
+								<h3>Sagrario Rios</h3>
 								<p>Aenean ultricies magna non sapien rhoncus, ac ullamcorper lorem convallis. Quisque at venenatis nisi, amet finibus mauris. Sed sodales ultricies eros, sit amet sodales sapien.</p>
 								<ul class="actions">
 									<li><a href="#" class="button">More</a></li>
@@ -164,7 +177,7 @@
 						<section class="post">
 							<span class="image"><img src="assets/images/pic01.jpg" alt="" /></span>
 							<div class="content">
-								<h3>Gema</h3>
+								<h3>Medellyn Pelaez</h3>
 								<p>Ultrices nec metus. Aenean ultricies magna et sapien rhoncus ac ullamcorper lorem convallis. Quisque at venenatis nisi amet finibus mauris. Sed sodales ultricies magna etiam.</p>
 								<ul class="actions">
 									<li><a href="#" class="button">More</a></li>
@@ -174,7 +187,37 @@
 						<section class="post">
 							<span class="image"><img src="assets/images/pic01.jpg" alt="" /></span>
 							<div class="content">
-								<h3>Cesar</h3>
+								<h3>Sandra Torres</h3>
+								<p>Quis interdum. Lorem quis lacus justo. Sed libero condimentum vehicula sem vel, mattis amet mauris. Nullam lacinia sit amet felis vel vestibulum. Morbi aliquam aenean.</p>
+								<ul class="actions">
+									<li><a href="#" class="button">More</a></li>
+								</ul>
+							</div>
+						</section>
+						<section class="post">
+							<span class="image"><img src="assets/images/pic01.jpg" alt="" /></span>
+							<div class="content">
+								<h3>Gema Gama</h3>
+								<p>Quis interdum. Lorem quis lacus justo. Sed libero condimentum vehicula sem vel, mattis amet mauris. Nullam lacinia sit amet felis vel vestibulum. Morbi aliquam aenean.</p>
+								<ul class="actions">
+									<li><a href="#" class="button">More</a></li>
+								</ul>
+							</div>
+						</section>
+						<section class="post">
+							<span class="image"><img src="assets/images/pic01.jpg" alt="" /></span>
+							<div class="content">
+								<h3>Pablo Ruano</h3>
+								<p>Quis interdum. Lorem quis lacus justo. Sed libero condimentum vehicula sem vel, mattis amet mauris. Nullam lacinia sit amet felis vel vestibulum. Morbi aliquam aenean.</p>
+								<ul class="actions">
+									<li><a href="#" class="button">More</a></li>
+								</ul>
+							</div>
+						</section>
+						<section class="post">
+							<span class="image"><img src="assets/images/pic01.jpg" alt="" /></span>
+							<div class="content">
+								<h3>Cesar Ruano</h3>
 								<p>Quis interdum. Lorem quis lacus justo. Sed libero condimentum vehicula sem vel, mattis amet mauris. Nullam lacinia sit amet felis vel vestibulum. Morbi aliquam aenean.</p>
 								<ul class="actions">
 									<li><a href="#" class="button">More</a></li>
@@ -243,9 +286,9 @@
 								<p>(515) 243-1986 <br /> (515) 630-0046</p>	
 							</li>
 							<li>
-								<span class="icon-wrapper"><span class="icon brands fa-twitter"></span></span>
-								<h3>Twitter</h3>
-								<p><a href="#">twitter.com/untitled-tld</a></p>
+								<span class="icon-wrapper"><span class="icon solid fa-mobile"></span></span>
+								<h3>Cell Phone</h3>
+								<p>(515) 778-2885</p>
 							</li>
 							<li>
 								<span class="icon-wrapper"><span class="icon solid fa-home"></span></span>
