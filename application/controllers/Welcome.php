@@ -20,11 +20,39 @@ class Welcome extends CI_Controller {
 	 */
 	public function __construct() {
         parent::__construct();
-        $this->load->helper('url');
+		$this->load->helper('url');
 	}
 	
 	public function index()
 	{
-		$this->load->view('home');
+		$this->load->config('email');
+		$this->load->library('email');
+		$data['message'] = '';
+
+		if($this->input->method() == 'post'){
+			$from = $this->config->item('smtp_user');
+			$who = $this->input->post('email');
+			$to = 'info@mccstaxservice.com';
+			$subject = $this->input->post('tipo-servicio');
+			$message = $this->input->post('message');
+
+			$this->email->set_newline("\r\n");
+			$this->email->from($from);
+			$this->email->to($to);
+			$this->email->subject($subject);
+			$this->email->message($message);
+			
+			if ($this->email->send()) {
+				$data['message'] = 'Gracias, tu solucitud ha sido enviada';
+				$this->load->view('home', $data);
+			} else {
+				show_error($this->email->print_debugger());
+			}
+
+		}
+		else {
+			$this->load->view('home', $data);
+		}
+		
 	}
 }

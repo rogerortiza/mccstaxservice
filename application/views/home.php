@@ -233,7 +233,12 @@
 				<div class="inner">
 					<section>
 						<h2>Envianos un mensaje</h2>
-						<form method="post" action="#">
+						<?php
+							if($message) {
+								echo "<h3>$message</h3>";
+							}
+						?>
+						<form method="post" action="">
 							<div class="row gtr-uniform">
 								<div class="col-6 col-12-large col-6-medium col-12-xsmall">
 									<label for="name">Nombre</label>
@@ -247,11 +252,11 @@
 									<label for="tipo-servicio">Tipo de Servicio</label>
 									<select name="tipo-servicio" id="tipo-servicio" rows="5" required>
 										<option value="" disabled selected>Selecciona una opcion</option>
-										<option value="1">Seguro de carro sin licencia</option>
-										<option value="2">Servicio de Notario</option>
-										<option value="3">Preparacion de impuestos</option>
-										<option value="4">Aplicacion y renovacion de numeros ITIN</option>
-										<option value="0">Otro</option>
+										<option value="Seguro de carro sin licencia">Seguro de carro sin licencia</option>
+										<option value="Servicio de Notario">Servicio de Notario</option>
+										<option value="Preparacion de impuestos">Preparacion de impuestos</option>
+										<option value="Aplicacion y renovacion de numeros ITIN">Aplicacion y renovacion de numeros ITIN</option>
+										<option value="Otro">Otro</option>
 									</select>
 								</div>
 								<div class="col-12">
