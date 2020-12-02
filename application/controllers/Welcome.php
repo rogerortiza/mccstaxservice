@@ -34,7 +34,7 @@ class Welcome extends CI_Controller {
 			$who = $this->input->post('email');
 			$to = 'info@mccstaxservice.com';
 			$subject = $this->input->post('tipo-servicio');
-			$message = 'Mensaje de'.$who.'que dice: '.$this->input->post('message');
+			$message = 'Mensaje de <strong>'.$who.'</strong> que dice: '.$this->input->post('message');
 
 			$this->email->set_newline("\r\n");
 			$this->email->from($from);
