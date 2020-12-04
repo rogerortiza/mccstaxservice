@@ -38,7 +38,7 @@
 
 		<!-- Header -->
 			<header id="header" class="alt">
-                <h1><a href="<?php echo base_url() ?>">MCCS <span>Tax Service</span></a></h1>
+                <h1><a href="<?php echo base_url() ?>">MCCS <span>Tax Service and Insurance</span></a></h1>
 				<nav id="nav">
 					<ul>
 						<li><a href="index.html">Home</a></li>
