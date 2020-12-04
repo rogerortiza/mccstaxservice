@@ -2872,6 +2872,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+			.post2 {
+				width: 100% !important;
+			}
+
 			.posts {
 				display: block;
 			}
@@ -2879,6 +2883,7 @@ input, select, textarea {
 				.posts .post {
 					width: 100%;
 				}
+				
 
 		}
 
