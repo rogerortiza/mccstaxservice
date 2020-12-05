@@ -56,33 +56,3 @@
 						esté registrada para cuidar nin@s  solicite su forma del total pagado.</li>
 				</ul>
 			</div>
-
-		<!-- Sidebar -->
-			<div class="sidebar">
-
-				<section>
-					<a href="#" class="image fit"><img src="assets/images/income-small.jpg" alt="" /></a>
-					<h3>Magna Feugiat</h3>
-					<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit..</p>
-					<footer>
-						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
-						</ul>
-					</footer>
-				</section>
-				<hr />
-				<section>
-					<a href="#" class="image fit"><img src="assets/images/money.jpg" alt="" /></a>
-					<h3>Amet Lorem Tempus</h3>
-					<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-					<footer>
-						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
-						</ul>
-					</footer>
-				</section>
-
-			</div>
-
-	</div>
-</section>

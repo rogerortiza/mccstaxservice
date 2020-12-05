@@ -91,7 +91,7 @@
 					<h3>Aplicacion y renovacion de numeros <strong>ITIN</strong></h3>
 					<p>Si vas a realizar el tramite tu numero de ITIN por primera vez los requisitos son los siguiente.</p>
 					<ul class="actions">
-						<li><a href="#" class="button">Saber mas...</a></li>
+						<li><a href="<?php echo base_url()."itin" ?>" class="button">Saber mas...</a></li>
 					</ul>
 				</div>
 			</section>

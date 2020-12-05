@@ -28,6 +28,7 @@ class Impuestos extends CI_Controller {
 		$data['message'] = '';
 		$this->load->view('shared/header2');
 		$this->load->view('impuestos/main', $data);
+		$this->load->view('shared/right_aside');
 		$this->load->view('shared/footer');
 	}
 }
