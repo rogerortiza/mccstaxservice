@@ -11,6 +11,8 @@ class Itin extends CI_Controller {
 	public function index()
 	{
 		$data['message'] = '';
+		$data['headerContent'] = 2;
+		
 		$this->load->view('shared/header2');
 		$this->load->view('itin/main', $data);
 		$this->load->view('shared/right_aside');

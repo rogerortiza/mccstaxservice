@@ -4,7 +4,7 @@
 		<title>MCCS Tax Service</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/main.css?v=<?php echo(rand()); ?>" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -36,43 +36,83 @@
 			logged_out_greeting="Hola! Como te podemos apoyar el dia de hoy?">
 		</div>
 
-		<!-- Header -->
-			<header id="header" class="alt">
-                <h1><a href="<?php echo base_url() ?>">MCCS <span>Tax Service and Insurance</span></a></h1>
-				<nav id="nav">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li>
-							<a href="#" class="submenu fa-angle-down">Servicios</a>
+		<?php
+			switch($headerContent) {
+				case 1:
+					echo '
+					<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="'.base_url().'">MCCS <span>Tax Service and Insurance</span></a></h1>
+						<nav id="nav">
 							<ul>
-							<li><a href="left-sidebar.html">Declaracion de Impuestos</a></li>
-								<li><a href="right-sidebar.html">Seguro de Auto sin licencia</a></li>
-								<li><a href="no-sidebar.html">Aplicacion numero ITIN</a></li>
-                                <li><a href="no-sidebar.html">Servicio de Notario</a></li>
+								<li><a href="index.html">Home</a></li>
+								<li>
+									<a href="#" class="submenu fa-angle-down">Servicios</a>
+									<ul>
+									<li><a href="left-sidebar.html">Declaracion de Impuestos</a></li>
+										<li><a href="right-sidebar.html">Seguro de Auto sin licencia</a></li>
+										<li><a href="no-sidebar.html">Aplicacion numero ITIN</a></li>
+										<li><a href="no-sidebar.html">Servicio de Notario</a></li>
+									</ul>
+								</li>
 							</ul>
-						</li>
-					</ul>
-				</nav>
-            </header>
-            
-        <!-- Banner -->
-			<section id="banner">
-				<article>
-					<img src="assets/images/tax-man.jpg" alt="" />
-					<div class="inner">
-						<h2>MCCS Tax Service and Insurance</h2>
-					</div>
-				</article>
-				<article>
-					<img src="assets/images/tax-man2.jpg" alt="" />
-					<div class="inner">
-						<h2>Nos renovamos para ti</h2>
-					</div>
-				</article>
-				<article>
-					<img src="assets/images/tax2.jpg"  alt="" />
-					<div class="inner">
-						<h2>Para ofrecerte una mejor calidad de servicio</h2>
-					</div>
-				</article>
-			</section>
+						</nav>
+					</header>
+						
+					<!-- Banner -->
+					<section id="banner">
+						<article>
+							<img src="assets/images/tax-man.jpg" alt="" />
+							<div class="inner">
+								<h2>MCCS Tax Service and Insurance</h2>
+							</div>
+						</article>
+						<article>
+							<img src="assets/images/tax-man2.jpg" alt="" />
+							<div class="inner">
+								<h2>Nos renovamos para ti</h2>
+							</div>
+						</article>
+						<article>
+							<img src="assets/images/tax2.jpg"  alt="" />
+							<div class="inner">
+								<h2>Para ofrecerte una mejor calidad de servicio</h2>
+							</div>
+						</article>
+					</section>
+					';
+					break;
+
+				case 2:
+					echo '
+					<!-- Header -->
+					<header id="header">
+						<h1><a href="'.base_url().'">MCCS <span>Tax Service and Insurance</span></a></h1>
+						<nav id="nav">
+							<ul>
+								<li><a href="<?php echo base_url() ?>">Home</a></li>
+								<li>
+									<a href="#" class="submenu fa-angle-down">Servicios</a>
+									<ul>
+										<li><a href="left-sidebar.html">Left Sidebar</a></li>
+										<li><a href="right-sidebar.html">Right Sidebar</a></li>
+										<li><a href="no-sidebar.html">No Sidebar</a></li>
+										<li>
+											<a href="#">Submenu</a>
+											<ul>
+												<li><a href="#">Option One</a></li>
+												<li><a href="#">Option Two</a></li>
+												<li><a href="#">Option Three</a></li>
+												<li><a href="#">Option Four</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+					</header>
+					';
+				break;
+			}
+
+		?>

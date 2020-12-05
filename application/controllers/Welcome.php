@@ -28,6 +28,7 @@ class Welcome extends CI_Controller {
 		$this->load->config('email');
 		$this->load->library('email');
 		$data['message'] = '';
+		$data['headerContent'] = 1;
 
 		if($this->input->method() == 'post'){
 			$from = $this->config->item('smtp_user');
@@ -51,7 +52,7 @@ class Welcome extends CI_Controller {
 
 		}
 		else {
-			$this->load->view('shared/header');
+			$this->load->view('shared/header', $data);
 			$this->load->view('home', $data);
 			$this->load->view('shared/footer');
 		}
