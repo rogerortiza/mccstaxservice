@@ -26,8 +26,8 @@ class Impuestos extends CI_Controller {
 	public function index()
 	{
 		$data['message'] = '';
-		$this->load->view('header2');
-		$this->load->view('impuestos', $data);
-		$this->load->view('footer');
+		$this->load->view('shared/header2');
+		$this->load->view('impuestos/main', $data);
+		$this->load->view('shared/footer');
 	}
 }

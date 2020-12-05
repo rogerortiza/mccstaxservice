@@ -113,6 +113,12 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+/* Custom */
+.font-big {
+	font-size: 22px;
+	line-height: 29px;
+}
+
 /* Type */
 
 	body {

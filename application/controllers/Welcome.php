@@ -51,9 +51,9 @@ class Welcome extends CI_Controller {
 
 		}
 		else {
-			$this->load->view('header');
+			$this->load->view('shared/header');
 			$this->load->view('home', $data);
-			$this->load->view('footer');
+			$this->load->view('shared/footer');
 		}
 		
 	}

@@ -19,8 +19,8 @@
 					preparación de tu formulario 1040x Amended</p>
 
 				<h3>Preparacion de Impuestos</h3>
-				<p>Si es la primera vez que nos vistas recuerda traer la siguiente documentación para poder realizar de forma 
-					más eficiente tu declaración de impuestos.</p>
+				<blockquote>Si es la primera vez que nos vistas recuerda traer la siguiente documentación para poder realizar de forma 
+					más eficiente tu declaración de impuestos.</blockquote>
 				<ul>
 					<li>Declaración de impuestos del año anterior.</li>
 					<li>Identificación de la persona  principal en la declaración.</li>
@@ -28,6 +28,32 @@
 					<li>Fechas de nacimiento y comprobante de que están residiendo dentro de los Estados Unidos.</li>
 					<li>Cuenta bancaria y número de ruta bancaria donde quiere que se le haga el depósito del reembolso si es 
 						que calificara para una devolución de impuestos.</li>
+					<li>Formularios W-2, 1099 MISC.</li>
+					<li>Forma del desempleo si recibió durante el año.</li>
+					<li>En caso de recibir beneficios del seguro social debe presentar su forma.</li>
+					<li>Si tiene hijos menores de 13 años y paga por su cuidado en un daycare o persona que 
+						esté registrada para cuidar nin@s  solicite su forma del total pagado.</li>
+				</ul>
+
+				<blockquote>SI es dueño de Casa usted califica para deducciones adicionales para lo cual 
+				necesitamos que traga la siguiente información</blockquote>
+				<ul>
+					<li>Forma 1099- mortgage interest.</li>
+					<li>En caso de que la casa esté liquidada necesitaremos el total pagado de impuestos 
+						de la casa.</li>
+					<li>Gastos médicos que hayan sido pagado por usted como por ejemplo, dentista, lentes, 
+						cirugías,etc.</li>
+					<li>Donaciones hechas a la iglesia o comunidad.</li>
+					<li>Total del pago de la renovación vehicular de los carros que se encuentran a su nombre</li>
+				</ul>
+
+				<blockquote>Si eres cliente frecuente y regresas con nosotros solo debes presentar</blockquote>
+				<ul>
+					<li>Formularios W-2, 1099 MISC.</li>
+					<li>Forma del desempleo si recibió durante el año.</li>
+					<li>En caso de recibir beneficios del seguro social debe presentar su forma.</li>
+					<li>Si tiene hijos menores de 13 años y paga por su cuidado en un daycare o persona que 
+						esté registrada para cuidar nin@s  solicite su forma del total pagado.</li>
 				</ul>
 			</div>
 
@@ -35,7 +61,7 @@
 			<div class="sidebar">
 
 				<section>
-					<a href="#" class="image fit"><img src="assets/images/dollar.jpg" alt="" /></a>
+					<a href="#" class="image fit"><img src="assets/images/income-small.jpg" alt="" /></a>
 					<h3>Magna Feugiat</h3>
 					<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit..</p>
 					<footer>

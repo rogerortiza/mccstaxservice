@@ -4,12 +4,12 @@
 		<section class="spotlight">
 			<div class="content">
 				<h2>Nueva imagen, mejor calidad de servicio pero los mismos de siempre</h2>
-				<p>Cesar Tax es ahora <strong>MCCS Tax Service and Insurance</strong>. Nos renovamos con mas servicios y hemos
+				<p class="font-big">Cesar Tax es ahora <strong>MCCS Tax Service and Insurance</strong>. Nos renovamos con mas servicios y hemos
 					mejorado los que ya teniamos. Ahora contamos con pagina web y redes sociales en donde podras hacer citas,
 					informarte sobre nuestros servicios y requisitos necesarios para tus tramite para realizar tus tramites 
 					asi como para ponerte en contacto con nosotros de una manera mas facil y sencilla. 
 				</p>
-				<p>Con  más de 15 años de experiencia te podemos ayudar con la preparación de tus impuestos 
+				<p class="font-big">Con  más de 15 años de experiencia te podemos ayudar con la preparación de tus impuestos 
 					personales formulario 1040 o si eres un subcontratista y recibes un formulario 1099 misc por tu 
 					trabajo realizado por el año</p>
 			</div>
