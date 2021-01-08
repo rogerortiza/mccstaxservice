@@ -138,16 +138,6 @@
 			<section class="post">
 				<span class="image"><img src="assets/images/pic01.jpg" alt="" /></span>
 				<div class="content">
-					<h3>Sandra Torres</h3>
-					<p>Quis interdum. Lorem quis lacus justo. Sed libero condimentum vehicula sem vel, mattis amet mauris. Nullam lacinia sit amet felis vel vestibulum. Morbi aliquam aenean.</p>
-					<ul class="actions">
-						<li><a href="#" class="button">More</a></li>
-					</ul>
-				</div>
-			</section>
-			<section class="post">
-				<span class="image"><img src="assets/images/pic01.jpg" alt="" /></span>
-				<div class="content">
 					<h3>Gema Gama</h3>
 					<p>Quis interdum. Lorem quis lacus justo. Sed libero condimentum vehicula sem vel, mattis amet mauris. Nullam lacinia sit amet felis vel vestibulum. Morbi aliquam aenean.</p>
 					<ul class="actions">
